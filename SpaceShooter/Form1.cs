@@ -187,7 +187,7 @@ namespace SpaceShooter
             enemy.Width = 64;
             enemy.Height = 64;
             enemy.SizeMode = PictureBoxSizeMode.StretchImage;
-            enemy.Image = Properties.Resources.enemy_ship; // ваша картинка врага
+            enemy.Image = Properties.Resources.enemy_ship; // картинка врага
             enemy.Name = "enemy";
             enemy.BackColor = Color.Transparent;
             this.Controls.Add(enemy);
@@ -207,7 +207,7 @@ namespace SpaceShooter
             bullet.Width = 20;
             bullet.Height = 40;
             bullet.SizeMode = PictureBoxSizeMode.StretchImage;
-            bullet.Image = Properties.Resources.laser_cartoon; // ваша картинка пули врага
+            bullet.Image = Properties.Resources.laser_cartoon; // картинка пули врага
             bullet.BackColor = Color.Transparent;
             bullet.Left = enemy.Left + enemy.Width / 2 - 10;
             bullet.Top = enemy.Top + enemy.Height;
@@ -224,7 +224,7 @@ namespace SpaceShooter
             bossPic.Width = 128;
             bossPic.Height = 128;
             bossPic.SizeMode = PictureBoxSizeMode.StretchImage;
-            bossPic.Image = Properties.Resources.boss_removebg_preview; // ваша картинка босса
+            bossPic.Image = Properties.Resources.boss_removebg_preview; // картинка босса
             bossPic.BackColor = Color.Transparent;
             this.Controls.Add(bossPic);
 
@@ -257,7 +257,7 @@ namespace SpaceShooter
             bullet.Width = 24;
             bullet.Height = 48;
             bullet.SizeMode = PictureBoxSizeMode.StretchImage;
-            bullet.Image = Properties.Resources.laser_cartoon; // ваша картинка пули босса
+            bullet.Image = Properties.Resources.laser_cartoon; // картинка пули босса
             bullet.BackColor = Color.Transparent;
             bullet.Left = bossPic.Left + bossPic.Width / 2 - 12;
             bullet.Top = bossPic.Top + bossPic.Height;
